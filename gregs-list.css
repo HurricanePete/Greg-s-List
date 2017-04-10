@@ -1,0 +1,68 @@
+nav  {
+	background-color: lightgray;
+	position: fixed;
+	/*position: relative;*/
+	height: 60px;
+	width: 100%;
+/*	padding-top: 1px;
+	padding-right: 1px;*/
+	text-align: right;
+	
+}
+li	{
+	display: inline-block;
+	position: relative;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+
+li:hover {
+	color: black;
+}
+
+.title {
+	position: absolute;
+	left: 10px;
+}
+
+form {
+	padding-left: 100px;
+	padding-top: 50px;
+	display: inline-block; ;
+}
+input {
+	border-radius: 5px;
+	border: 1px solid grey;
+	width: 500px;
+	height: 30px;
+}
+label {
+	position: relative;
+	bottom: 28px;
+	left: 82px;
+}
+
+.glass {
+	border-radius: 5px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid gray;
+	position: relative;
+	top: 12px;
+
+}
+
+.pages-master {
+	width: 300px;
+	height: 40px;
+	padding-left: 100px;
+	padding-top: 100px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.pages {
+	display: inline-block;
+}
