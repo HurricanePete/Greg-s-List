@@ -6,31 +6,52 @@
   <link rel="stylesheet" type="text/css" href="gregs-list.css">
 </head>
 <body>
-  <nav>
-    <h1 class="title">Greg's List</h1>
-    <ul>
-      <li><a href="">Post</a></li>
-      <li><a href="">Account</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="head-master">
+      <div>  
+        <h1 class="title">Greg's List</h1>
+      </div>
+      <ul>
+        <li class="hover"><a href="">Post</a></li>
+        <li class="hover"><a href="">Account</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <form class="search-master">
-      <label>Search Jobs</label>
-      <input type="text" name="Software-Search" placeholder="  Search software jobs">
-      <img class="glass" src="magnifying-glass.png"> 
-    </form>
-	  <div class="pages-master">
-     <div class="pages prev">
-       <p>< prev</p>
-     </div>
-     <div class="pages current">
-       <p>1 to 100 of 179</p>
-     </div>
-     <div class="pages next">
-       <p>next ></p>
-     </div>
+      <section class="search-master">
+        <form>
+          <label for="search">Search Jobs</label>
+          <input type="text" name="search" placeholder="Search software jobs"/>
+          <!--<input type="image" name="search-glass" src="magnifying-glass.png" class="glass">-->
+          <img class="glass" src="magnifying-glass.png" alt="Search-Pic">
+        </form> 
+      </section>
+	  <!--<nav class="pages-master">
+      <a class="page prev">< prev</a>
+      <span class="page current">1 to 100 of 179</span>
+      <a class="page next">next ></a>
+    </nav>
+
     </div>
-    <div class="results"></div>
+    <div class="results-master">
+      <ul class="results">
+        <li class="result">
+          <span class="result-date">June 22</span>
+          <span class="result-title">Technical Project Manager</span>
+          <span class="result-locale">Midtown East</span>
+        </li>
+        <li class="result">
+          <span class="result-date">June 21</span>
+          <span class="result-title">Frontend Developer</span>
+          <span class="result-locale">SoHo</span>
+        </li>
+        <li class="result">
+          <span class="result-date">June 20</span>
+          <span class="result-title">Senior Python Developer</span>
+          <span class="result-locale">Flatiron</span>
+        </li>
+      </ul>
+    </div> -->
   </main>
 </body>
 </html>
