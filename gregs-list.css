@@ -14,42 +14,103 @@ header {
 	right: 0;
 	border-bottom: 1px solid grey;
 }
-h1 {
-	font-size: 32px;
-}
+
 .head-master {
 	text-align: right;
+	margin: 25px;
 }
 .title {
+	font-size: 32px;
 	position: absolute;
 	top: -10px;
-	left: 10px;
+	left: 20px;
 }
 .hover {
 	display: inline-block;
-	font-size: 30px;
-	padding-right: 10px;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
 }
-
+.hover:after {
+	content: " | "
+}
+.hover:last-child:after {
+	content: ""
+}
+a {
+	text-decoration: none;
+}
 a:hover {
 	color: red;
 }
 
 .search-master {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	margin-top: 30px;
 }
 .glass {
 	height: 30px;
 	width: 30px;
 	border: 1px solid grey;
+	border-radius: 5px;
 	vertical-align: bottom;
 }
 input {
 	height: 30px;
 	width: 400px;
 	border: 1px solid grey;
+	border-radius: 5px;
 }
 label {
 	display: block;
+	margin-bottom: 5px;
+}
+
+.pages-master {
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 0;
+	margin-bottom: 30px;
+}
+
+.page.prev {
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+.page.next {
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+	
+.page.current {
+	font-size: 16px;
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid	grey;
+	border-right: 1px solid grey;
+}
+
+.results {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}.result {
+	list-style: none;
+	margin-bottom: 15px;
+}
+.result-date, .result-locale {
+	color: gray;
+}
+.result-title {
+	font-weight: bold;
+	color: blue;
+	font-size: 17px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
